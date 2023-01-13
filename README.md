@@ -11,6 +11,7 @@
 |-- data
     |-- mnist
     |-- CUB_200_2011
+        |-- train
 |-- data_utils.py
 |-- gan.py
 |-- my_dataset.py
