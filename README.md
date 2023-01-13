@@ -8,6 +8,13 @@
 数据集放在根目录的data文件夹下
 ### 目录结构
 ```
+|-- data
+    |-- mnist
+    |-- CUB_200_2011
+|-- data_utils.py
+|-- gan.py
+|-- my_dataset.py
+
 ```
 ### 运行指令
 `python gan.py`
