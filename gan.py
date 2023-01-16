@@ -181,4 +181,4 @@ for epoch in range(args.n_epochs):
 
         batches_done = epoch * len(dataloader) + i
         if batches_done % args.sample_interval == 0:
-            save_image(gen_imgs.data[:25], "images/%d.png" % batches_done, nrow=5, normalize=True)
+            save_image(gen_imgs.data[:16], "images/%d.png" % batches_done, nrow=5, normalize=True)
